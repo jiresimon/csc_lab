@@ -1,0 +1,24 @@
+Geometric mean and arithmetic mean
+
+While running the codes, I can see that the code runs without an error when calculating the geometric and arithmetic mean of positive values of x.
+
+Anytime there's an input of a negative number, the loop gets terminated and there's an answer based on the inital positive values of x entered before the negative number.
+
+There's an except block that handles anyother error from the input.
+
+
+==================================================================
+Natural logarithm
+
+While running the program, the program returns the answer of negative values of x which are the legal values.
+
+The code keeps running because the user-defined function is called each time there's a valid value of x.
+
+When I input a positive value of x which is an illegal input, the loop gets terminated or there's a break out from the loop and the program ends.
+
+All other errors I encountered where handles by the except and else blocks.
+
+================================================================
+Conclusion
+
+Both programs where able to calculate the geometric mean, arithmetic mean and the natural logarithm of valid entries of x.

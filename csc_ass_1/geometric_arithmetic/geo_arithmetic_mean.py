@@ -21,7 +21,7 @@ while  (i <= total_num):
         break
         
     i+=1
-
+print(num_list)
 #To calculate the geometric mean
 try:
     geo_mean_1 = prod(num_list)
