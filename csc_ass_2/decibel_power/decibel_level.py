@@ -15,9 +15,11 @@ def decibel_level():
     while P2 <= 20:
         decibel_level_calc = 10 * log10(P2/P1)
         print("The decibel level of" +  " " + str(P2) + " " 
-              + "watt(s)" + " " + "=====" + " " + str(decibel_level_calc) + "db")
-        
-        P2 = P2 + 0.5
+              + "watt(s)" + " " + "==" + " " 
+              + str(decibel_level_calc) + "db")
+              
+        #increment in 0.5watts steps
+        P2 += 0.5
 
 
 decibel_level()
