@@ -5,6 +5,8 @@ print("N -- Total number of positive values given")
 print()
 
 def harmonic_mean():
+    '''Program calculates the harmonic mean of positive values of x'''
+    
     total_num = int(input("Enter the value for 'N' in the question:\n>>> "))
     print()
 
